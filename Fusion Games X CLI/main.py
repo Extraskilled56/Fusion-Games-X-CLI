@@ -15,3 +15,6 @@ def get():
     elif q1 == Hosting:
         print("cloning hosting branch (for hosting locally)")
         os.system("git clone -b hostingproviders https://gitlab.com/fusiongames1/fusion-games-x.git")
+
+def update():
+    
